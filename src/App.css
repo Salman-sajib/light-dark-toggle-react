@@ -17,6 +17,7 @@
   min-height: 100dvh;
   display: grid;
   place-content: center;
+  transition: all 500ms;
 }
 
 .container {
