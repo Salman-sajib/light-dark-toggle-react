@@ -1,15 +1,15 @@
 :root {
-  --background: #fff;
-  --text-primary: #000;
-  --button-bg: #000;
-  --button-text: #fff;
+  --background: #e7f6ff;
+  --text-primary: #000613;
+  --button-bg: #000613;
+  --button-text: #e7f6ff;
 }
 
 [data-theme='dark'] {
-  --background: #000;
-  --text-primary: #fff;
-  --button-bg: #fff;
-  --button-text: #000;
+  --background: #000613;
+  --text-primary: #e7f6ff;
+  --button-bg: #e7f6ff;
+  --button-text: #000613;
 }
 
 .light-dark-mode {
