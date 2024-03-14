@@ -4,7 +4,7 @@ function LightDarkToggle() {
   const [theme, setTheme] = useLocalStorage('theme', 'dark');
 
   function handleThemeToggle() {
-    setTheme(theme === 'light' ? 'dark' : 'light');
+    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
   }
 
   // console.log(theme);
